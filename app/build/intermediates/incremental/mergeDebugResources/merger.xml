@@ -1765,7 +1765,6 @@
         <attr format="color" name="text_color"/>
         <attr format="dimension" name="text_size"/>
         
-        
         <attr format="dimension" name="margin"/>
         
         <attr format="dimension" name="line_to_top_margin"/>
@@ -1920,7 +1919,6 @@
         
         <attr format="color" name="text_color"/>
         <attr format="dimension" name="text_size"/>
-        
         
         <attr format="dimension" name="margin"/>
         

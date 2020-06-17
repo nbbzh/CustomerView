@@ -21,9 +21,5 @@
         app:step="one"
         app:text_size="12sp"
         app:text_to_bottom_margin="8dp" />
-    <com.zh.customerview.view.StepViewTest
-        android:id="@+id/step2"
-        android:background="#00Ff00"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"/>
+
 </LinearLayout>

@@ -764,7 +764,6 @@ id standard
 id start
 id status_bar_latest_event_content
 id step1
-id step2
 id submenuarrow
 id submit_area
 id tabMode
