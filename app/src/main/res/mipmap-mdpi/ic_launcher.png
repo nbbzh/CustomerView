@@ -1,0 +1,76 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.feheadline.launcher"
+        minSdkVersion 24
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0.1"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+//        ndk {
+//            abiFilters 'armeabi-v7a'
+//        }
+
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('D:\\keystore\\debug.keystore')
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
+
+        debug {
+            storeFile file('D:\\keystore\\debug.keystore')
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            aaptOptions.cruncherEnabled = false
+            aaptOptions.useNewCruncher = false
+        }
+    }
+
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+
+    packagingOptions {
+        pickFirst('lib/armeabi-v7a/libRSSupport.so')
+        pickFirst('lib/arm64-v8a/libRSSupport.so')
+        pickFirst('lib/x86_64/libRSSupport.so')
+        pickFirst('lib/x86/libRSSupport.so')
+
+        pickFirst('lib/arm64-v8a/librsjni.so')
+        pickFirst('lib/x86/librsjni.so')
+        pickFirst('lib/x86_64/librsjni.so')
+        pickFirst('lib/armeabi-v7a/librsjni.so')
+    }
+
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'x86', 'x86_64', 'armeabi-v7a', 'armeabi'
+//            include 'armeabi-v7a'
+            universalApk fal

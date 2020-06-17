@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="654c3c89-8693-4d27-8dc5-0fdc2dfecbe8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/feheadline/launcher/widget/player/video/CustomIJKPlayer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/feheadline/launcher/widget/player/video/CustomIJKPlayer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/feheadline/launcher/widget/player/video/RawDataSourceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/feheadline/launcher/widget/player/video/RawDataSourceProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/feheadline/launcher/widget/player/video/SurfaceRenderView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/feheadline/launcher/widget/player/video/SurfaceRenderView.kt" afterDir="false" />
+    </list>
+    <ignored path="C:\Users\android\Desktop\LuncherNew\Luncher\.idea\shelf/" />
+    <ignored path="C:\Users\android\Desktop\zh\lancher\.idea\shelf/" />
+    <ignored path="C:\Users\android\Desktop\lancher\.idea\shelf/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Luncher" type="f1a62948:ProjectNode" />
+     
