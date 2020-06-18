@@ -761,6 +761,7 @@ public final class R {
      */
     public static final int controlBackground=0x7f020062;
     /**
+     * 步骤点个数
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int count=0x7f020063;
@@ -1093,6 +1094,7 @@ public final class R {
      */
     public static final int isLightTheme=0x7f02008e;
     /**
+     * 此 view 是否可点击
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -1595,7 +1597,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -1603,6 +1605,7 @@ public final class R {
      */
     public static final int layout_optimizationLevel=0x7f0200c3;
     /**
+     * 线条长度是否可变,默认是
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -1623,6 +1626,7 @@ public final class R {
      */
     public static final int line_stroke_width=0x7f0200c5;
     /**
+     * 默认文字在线条下面，线条距顶部距离、文字距底部距离
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1725,6 +1729,7 @@ public final class R {
      */
     public static final int logoDescription=0x7f0200d3;
     /**
+     * 边距
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1741,6 +1746,7 @@ public final class R {
      */
     public static final int maxButtonHeight=0x7f0200d5;
     /**
+     * 根据最大步骤点数量，计算出线条长度不变时线条长度，线条长度可变时，该数据无效
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int max_dot_count=0x7f0200d6;
@@ -1782,6 +1788,7 @@ public final class R {
      */
     public static final int navigationMode=0x7f0200db;
     /**
+     * 链接步骤点之间的线条颜色和线宽
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
@@ -2074,6 +2081,7 @@ public final class R {
      */
     public static final int state_above_anchor=0x7f020103;
     /**
+     * 设置步骤点在哪儿
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -2250,12 +2258,14 @@ public final class R {
      */
     public static final int textColorSearchUrl=0x7f02011a;
     /**
+     * 文字说明信息
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int text_color=0x7f02011b;
     /**
+     * 文字是否在线条下面，默认是
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -7628,7 +7638,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -10749,18 +10759,18 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #StepView_count com.zh.customerview:count}</code></td><td></td></tr>
-     * <tr><td><code>{@link #StepView_is_view_clickable com.zh.customerview:is_view_clickable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #StepView_line_length com.zh.customerview:line_length}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StepView_count com.zh.customerview:count}</code></td><td>步骤点个数</td></tr>
+     * <tr><td><code>{@link #StepView_is_view_clickable com.zh.customerview:is_view_clickable}</code></td><td>此 view 是否可点击</td></tr>
+     * <tr><td><code>{@link #StepView_line_length com.zh.customerview:line_length}</code></td><td>线条长度是否可变,默认是</td></tr>
      * <tr><td><code>{@link #StepView_line_stroke_width com.zh.customerview:line_stroke_width}</code></td><td></td></tr>
-     * <tr><td><code>{@link #StepView_line_to_top_margin com.zh.customerview:line_to_top_margin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #StepView_margin com.zh.customerview:margin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #StepView_max_dot_count com.zh.customerview:max_dot_count}</code></td><td></td></tr>
-     * <tr><td><code>{@link #StepView_normal_line_color com.zh.customerview:normal_line_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StepView_line_to_top_margin com.zh.customerview:line_to_top_margin}</code></td><td>默认文字在线条下面，线条距顶部距离、文字距底部距离</td></tr>
+     * <tr><td><code>{@link #StepView_margin com.zh.customerview:margin}</code></td><td>边距</td></tr>
+     * <tr><td><code>{@link #StepView_max_dot_count com.zh.customerview:max_dot_count}</code></td><td>根据最大步骤点数量，计算出线条长度不变时线条长度，线条长度可变时，该数据无效</td></tr>
+     * <tr><td><code>{@link #StepView_normal_line_color com.zh.customerview:normal_line_color}</code></td><td>链接步骤点之间的线条颜色和线宽</td></tr>
      * <tr><td><code>{@link #StepView_passed_line_color com.zh.customerview:passed_line_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #StepView_step com.zh.customerview:step}</code></td><td></td></tr>
-     * <tr><td><code>{@link #StepView_text_color com.zh.customerview:text_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #StepView_text_location com.zh.customerview:text_location}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StepView_step com.zh.customerview:step}</code></td><td>设置步骤点在哪儿</td></tr>
+     * <tr><td><code>{@link #StepView_text_color com.zh.customerview:text_color}</code></td><td>文字说明信息</td></tr>
+     * <tr><td><code>{@link #StepView_text_location com.zh.customerview:text_location}</code></td><td>文字是否在线条下面，默认是</td></tr>
      * <tr><td><code>{@link #StepView_text_size com.zh.customerview:text_size}</code></td><td></td></tr>
      * <tr><td><code>{@link #StepView_text_to_bottom_margin com.zh.customerview:text_to_bottom_margin}</code></td><td></td></tr>
      * </table>
@@ -10786,8 +10796,9 @@ public final class R {
       0x7f02011d, 0x7f02011e
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#count}
-     * attribute's value can be found in the {@link #StepView} array.
+     * <p>
+     * @attr description
+     * 步骤点个数
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -10795,8 +10806,9 @@ public final class R {
      */
     public static final int StepView_count=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#is_view_clickable}
-     * attribute's value can be found in the {@link #StepView} array.
+     * <p>
+     * @attr description
+     * 此 view 是否可点击
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -10805,8 +10817,9 @@ public final class R {
      */
     public static final int StepView_is_view_clickable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#line_length}
-     * attribute's value can be found in the {@link #StepView} array.
+     * <p>
+     * @attr description
+     * 线条长度是否可变,默认是
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -10835,8 +10848,9 @@ public final class R {
      */
     public static final int StepView_line_stroke_width=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#line_to_top_margin}
-     * attribute's value can be found in the {@link #StepView} array.
+     * <p>
+     * @attr description
+     * 默认文字在线条下面，线条距顶部距离、文字距底部距离
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -10848,8 +10862,9 @@ public final class R {
      */
     public static final int StepView_line_to_top_margin=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#margin}
-     * attribute's value can be found in the {@link #StepView} array.
+     * <p>
+     * @attr description
+     * 边距
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -10861,8 +10876,9 @@ public final class R {
      */
     public static final int StepView_margin=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#max_dot_count}
-     * attribute's value can be found in the {@link #StepView} array.
+     * <p>
+     * @attr description
+     * 根据最大步骤点数量，计算出线条长度不变时线条长度，线条长度可变时，该数据无效
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -10870,8 +10886,9 @@ public final class R {
      */
     public static final int StepView_max_dot_count=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#normal_line_color}
-     * attribute's value can be found in the {@link #StepView} array.
+     * <p>
+     * @attr description
+     * 链接步骤点之间的线条颜色和线宽
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -10892,8 +10909,9 @@ public final class R {
      */
     public static final int StepView_passed_line_color=8;
     /**
-     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#step}
-     * attribute's value can be found in the {@link #StepView} array.
+     * <p>
+     * @attr description
+     * 设置步骤点在哪儿
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -10912,8 +10930,9 @@ public final class R {
      */
     public static final int StepView_step=9;
     /**
-     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#text_color}
-     * attribute's value can be found in the {@link #StepView} array.
+     * <p>
+     * @attr description
+     * 文字说明信息
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -10923,8 +10942,9 @@ public final class R {
      */
     public static final int StepView_text_color=10;
     /**
-     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#text_location}
-     * attribute's value can be found in the {@link #StepView} array.
+     * <p>
+     * @attr description
+     * 文字是否在线条下面，默认是
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
