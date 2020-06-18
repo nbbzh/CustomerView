@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\android_workspace\\CustomerView\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v29\\values-v29.xml",
+            "map": [
+                {
+                    "source": "D:\\android_workspace\\CustomerView\\app\\src\\main\\res\\values-v29\\styles.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "350"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "383"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -761,7 +761,6 @@ public final class R {
      */
     public static final int controlBackground=0x7f020062;
     /**
-     * 步骤点个数
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int count=0x7f020063;
@@ -1094,7 +1093,6 @@ public final class R {
      */
     public static final int isLightTheme=0x7f02008e;
     /**
-     * 此 view 是否可点击
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -1605,7 +1603,6 @@ public final class R {
      */
     public static final int layout_optimizationLevel=0x7f0200c3;
     /**
-     * 线条长度是否可变,默认是
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -1626,7 +1623,6 @@ public final class R {
      */
     public static final int line_stroke_width=0x7f0200c5;
     /**
-     * 默认文字在线条下面，线条距顶部距离、文字距底部距离
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1729,7 +1725,6 @@ public final class R {
      */
     public static final int logoDescription=0x7f0200d3;
     /**
-     * 边距
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1746,7 +1741,6 @@ public final class R {
      */
     public static final int maxButtonHeight=0x7f0200d5;
     /**
-     * 根据最大步骤点数量，计算出线条长度不变时线条长度，线条长度可变时，该数据无效
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int max_dot_count=0x7f0200d6;
@@ -1788,7 +1782,6 @@ public final class R {
      */
     public static final int navigationMode=0x7f0200db;
     /**
-     * 链接步骤点之间的线条颜色和线宽
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
@@ -2081,7 +2074,6 @@ public final class R {
      */
     public static final int state_above_anchor=0x7f020103;
     /**
-     * 设置步骤点在哪儿
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -2258,14 +2250,12 @@ public final class R {
      */
     public static final int textColorSearchUrl=0x7f02011a;
     /**
-     * 文字说明信息
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int text_color=0x7f02011b;
     /**
-     * 文字是否在线条下面，默认是
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -2974,116 +2964,120 @@ public final class R {
     public static final int buttonPanel=0x7f070022;
     public static final int cancel_action=0x7f070023;
     public static final int chains=0x7f070024;
-    public static final int checkbox=0x7f070025;
-    public static final int chronometer=0x7f070026;
-    public static final int collapseActionView=0x7f070027;
-    public static final int contentPanel=0x7f070028;
-    public static final int custom=0x7f070029;
-    public static final int customPanel=0x7f07002a;
-    public static final int decor_content_parent=0x7f07002b;
-    public static final int default_activity_button=0x7f07002c;
-    public static final int dimensions=0x7f07002d;
-    public static final int direct=0x7f07002e;
-    public static final int disableHome=0x7f07002f;
-    public static final int down=0x7f070030;
-    public static final int edit_query=0x7f070031;
-    public static final int end=0x7f070032;
-    public static final int end_padder=0x7f070033;
-    public static final int expand_activities_button=0x7f070034;
-    public static final int expanded_menu=0x7f070035;
-    public static final int five=0x7f070036;
-    public static final int fixed_length=0x7f070037;
-    public static final int forever=0x7f070038;
-    public static final int four=0x7f070039;
-    public static final int gone=0x7f07003a;
-    public static final int groups=0x7f07003b;
-    public static final int home=0x7f07003c;
-    public static final int homeAsUp=0x7f07003d;
-    public static final int icon=0x7f07003e;
-    public static final int icon_group=0x7f07003f;
-    public static final int ifRoom=0x7f070040;
-    public static final int image=0x7f070041;
-    public static final int info=0x7f070042;
-    public static final int invisible=0x7f070043;
-    public static final int italic=0x7f070044;
-    public static final int left=0x7f070045;
-    public static final int line1=0x7f070046;
-    public static final int line3=0x7f070047;
-    public static final int listMode=0x7f070048;
-    public static final int list_item=0x7f070049;
-    public static final int media_actions=0x7f07004a;
-    public static final int message=0x7f07004b;
-    public static final int middle=0x7f07004c;
-    public static final int multiply=0x7f07004d;
-    public static final int never=0x7f07004e;
-    public static final int none=0x7f07004f;
-    public static final int normal=0x7f070050;
-    public static final int notification_background=0x7f070051;
-    public static final int notification_main_column=0x7f070052;
-    public static final int notification_main_column_container=0x7f070053;
-    public static final int one=0x7f070054;
-    public static final int packed=0x7f070055;
-    public static final int parent=0x7f070056;
-    public static final int parentPanel=0x7f070057;
-    public static final int percent=0x7f070058;
-    public static final int progress_circular=0x7f070059;
-    public static final int progress_horizontal=0x7f07005a;
-    public static final int radio=0x7f07005b;
-    public static final int right=0x7f07005c;
-    public static final int right_icon=0x7f07005d;
-    public static final int right_side=0x7f07005e;
-    public static final int screen=0x7f07005f;
-    public static final int scrollIndicatorDown=0x7f070060;
-    public static final int scrollIndicatorUp=0x7f070061;
-    public static final int scrollView=0x7f070062;
-    public static final int search_badge=0x7f070063;
-    public static final int search_bar=0x7f070064;
-    public static final int search_button=0x7f070065;
-    public static final int search_close_btn=0x7f070066;
-    public static final int search_edit_frame=0x7f070067;
-    public static final int search_go_btn=0x7f070068;
-    public static final int search_mag_icon=0x7f070069;
-    public static final int search_plate=0x7f07006a;
-    public static final int search_src_text=0x7f07006b;
-    public static final int search_voice_btn=0x7f07006c;
-    public static final int select_dialog_listview=0x7f07006d;
-    public static final int shortcut=0x7f07006e;
-    public static final int showCustom=0x7f07006f;
-    public static final int showHome=0x7f070070;
-    public static final int showTitle=0x7f070071;
-    public static final int spacer=0x7f070072;
-    public static final int split_action_bar=0x7f070073;
-    public static final int spread=0x7f070074;
-    public static final int spread_inside=0x7f070075;
-    public static final int src_atop=0x7f070076;
-    public static final int src_in=0x7f070077;
-    public static final int src_over=0x7f070078;
-    public static final int standard=0x7f070079;
-    public static final int start=0x7f07007a;
-    public static final int status_bar_latest_event_content=0x7f07007b;
-    public static final int step1=0x7f07007c;
-    public static final int submenuarrow=0x7f07007d;
-    public static final int submit_area=0x7f07007e;
-    public static final int tabMode=0x7f07007f;
-    public static final int text=0x7f070080;
-    public static final int text2=0x7f070081;
-    public static final int textSpacerNoButtons=0x7f070082;
-    public static final int textSpacerNoTitle=0x7f070083;
-    public static final int three=0x7f070084;
-    public static final int time=0x7f070085;
-    public static final int title=0x7f070086;
-    public static final int titleDividerNoCustom=0x7f070087;
-    public static final int title_template=0x7f070088;
-    public static final int top=0x7f070089;
-    public static final int topPanel=0x7f07008a;
-    public static final int two=0x7f07008b;
-    public static final int uniform=0x7f07008c;
-    public static final int up=0x7f07008d;
-    public static final int useLogo=0x7f07008e;
-    public static final int variable_length=0x7f07008f;
-    public static final int withText=0x7f070090;
-    public static final int wrap=0x7f070091;
-    public static final int wrap_content=0x7f070092;
+    public static final int changeMode=0x7f070025;
+    public static final int change_mode=0x7f070026;
+    public static final int checkbox=0x7f070027;
+    public static final int chronometer=0x7f070028;
+    public static final int collapseActionView=0x7f070029;
+    public static final int contentPanel=0x7f07002a;
+    public static final int custom=0x7f07002b;
+    public static final int customPanel=0x7f07002c;
+    public static final int decor_content_parent=0x7f07002d;
+    public static final int default_activity_button=0x7f07002e;
+    public static final int dimensions=0x7f07002f;
+    public static final int direct=0x7f070030;
+    public static final int disableHome=0x7f070031;
+    public static final int down=0x7f070032;
+    public static final int edit_query=0x7f070033;
+    public static final int end=0x7f070034;
+    public static final int end_padder=0x7f070035;
+    public static final int expand_activities_button=0x7f070036;
+    public static final int expanded_menu=0x7f070037;
+    public static final int five=0x7f070038;
+    public static final int fixed_length=0x7f070039;
+    public static final int fl=0x7f07003a;
+    public static final int forever=0x7f07003b;
+    public static final int four=0x7f07003c;
+    public static final int gone=0x7f07003d;
+    public static final int groups=0x7f07003e;
+    public static final int home=0x7f07003f;
+    public static final int homeAsUp=0x7f070040;
+    public static final int icon=0x7f070041;
+    public static final int icon_group=0x7f070042;
+    public static final int ifRoom=0x7f070043;
+    public static final int image=0x7f070044;
+    public static final int info=0x7f070045;
+    public static final int invisible=0x7f070046;
+    public static final int italic=0x7f070047;
+    public static final int left=0x7f070048;
+    public static final int line1=0x7f070049;
+    public static final int line3=0x7f07004a;
+    public static final int listMode=0x7f07004b;
+    public static final int list_item=0x7f07004c;
+    public static final int media_actions=0x7f07004d;
+    public static final int message=0x7f07004e;
+    public static final int middle=0x7f07004f;
+    public static final int multiply=0x7f070050;
+    public static final int never=0x7f070051;
+    public static final int none=0x7f070052;
+    public static final int normal=0x7f070053;
+    public static final int notification_background=0x7f070054;
+    public static final int notification_main_column=0x7f070055;
+    public static final int notification_main_column_container=0x7f070056;
+    public static final int one=0x7f070057;
+    public static final int packed=0x7f070058;
+    public static final int parent=0x7f070059;
+    public static final int parentPanel=0x7f07005a;
+    public static final int percent=0x7f07005b;
+    public static final int progress_circular=0x7f07005c;
+    public static final int progress_horizontal=0x7f07005d;
+    public static final int radio=0x7f07005e;
+    public static final int right=0x7f07005f;
+    public static final int right_icon=0x7f070060;
+    public static final int right_side=0x7f070061;
+    public static final int screen=0x7f070062;
+    public static final int scrollIndicatorDown=0x7f070063;
+    public static final int scrollIndicatorUp=0x7f070064;
+    public static final int scrollView=0x7f070065;
+    public static final int search_badge=0x7f070066;
+    public static final int search_bar=0x7f070067;
+    public static final int search_button=0x7f070068;
+    public static final int search_close_btn=0x7f070069;
+    public static final int search_edit_frame=0x7f07006a;
+    public static final int search_go_btn=0x7f07006b;
+    public static final int search_mag_icon=0x7f07006c;
+    public static final int search_plate=0x7f07006d;
+    public static final int search_src_text=0x7f07006e;
+    public static final int search_voice_btn=0x7f07006f;
+    public static final int select_dialog_listview=0x7f070070;
+    public static final int shortcut=0x7f070071;
+    public static final int showCustom=0x7f070072;
+    public static final int showHome=0x7f070073;
+    public static final int showTitle=0x7f070074;
+    public static final int spacer=0x7f070075;
+    public static final int split_action_bar=0x7f070076;
+    public static final int spread=0x7f070077;
+    public static final int spread_inside=0x7f070078;
+    public static final int src_atop=0x7f070079;
+    public static final int src_in=0x7f07007a;
+    public static final int src_over=0x7f07007b;
+    public static final int standard=0x7f07007c;
+    public static final int start=0x7f07007d;
+    public static final int status_bar_latest_event_content=0x7f07007e;
+    public static final int step1=0x7f07007f;
+    public static final int submenuarrow=0x7f070080;
+    public static final int submit_area=0x7f070081;
+    public static final int tabMode=0x7f070082;
+    public static final int text=0x7f070083;
+    public static final int text2=0x7f070084;
+    public static final int textSpacerNoButtons=0x7f070085;
+    public static final int textSpacerNoTitle=0x7f070086;
+    public static final int three=0x7f070087;
+    public static final int time=0x7f070088;
+    public static final int title=0x7f070089;
+    public static final int titleDividerNoCustom=0x7f07008a;
+    public static final int title_template=0x7f07008b;
+    public static final int toSecond=0x7f07008c;
+    public static final int top=0x7f07008d;
+    public static final int topPanel=0x7f07008e;
+    public static final int two=0x7f07008f;
+    public static final int uniform=0x7f070090;
+    public static final int up=0x7f070091;
+    public static final int useLogo=0x7f070092;
+    public static final int variable_length=0x7f070093;
+    public static final int withText=0x7f070094;
+    public static final int wrap=0x7f070095;
+    public static final int wrap_content=0x7f070096;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
@@ -3121,33 +3115,35 @@ public final class R {
     public static final int abc_search_view=0x7f090019;
     public static final int abc_select_dialog_material=0x7f09001a;
     public static final int activity_main=0x7f09001b;
-    public static final int notification_action=0x7f09001c;
-    public static final int notification_action_tombstone=0x7f09001d;
-    public static final int notification_media_action=0x7f09001e;
-    public static final int notification_media_cancel_action=0x7f09001f;
-    public static final int notification_template_big_media=0x7f090020;
-    public static final int notification_template_big_media_custom=0x7f090021;
-    public static final int notification_template_big_media_narrow=0x7f090022;
-    public static final int notification_template_big_media_narrow_custom=0x7f090023;
-    public static final int notification_template_custom_big=0x7f090024;
-    public static final int notification_template_icon_group=0x7f090025;
-    public static final int notification_template_lines_media=0x7f090026;
-    public static final int notification_template_media=0x7f090027;
-    public static final int notification_template_media_custom=0x7f090028;
-    public static final int notification_template_part_chronometer=0x7f090029;
-    public static final int notification_template_part_time=0x7f09002a;
-    public static final int select_dialog_item_material=0x7f09002b;
-    public static final int select_dialog_multichoice_material=0x7f09002c;
-    public static final int select_dialog_singlechoice_material=0x7f09002d;
-    public static final int support_simple_spinner_dropdown_item=0x7f09002e;
-    public static final int tooltip=0x7f09002f;
+    public static final int activity_second=0x7f09001c;
+    public static final int notification_action=0x7f09001d;
+    public static final int notification_action_tombstone=0x7f09001e;
+    public static final int notification_media_action=0x7f09001f;
+    public static final int notification_media_cancel_action=0x7f090020;
+    public static final int notification_template_big_media=0x7f090021;
+    public static final int notification_template_big_media_custom=0x7f090022;
+    public static final int notification_template_big_media_narrow=0x7f090023;
+    public static final int notification_template_big_media_narrow_custom=0x7f090024;
+    public static final int notification_template_custom_big=0x7f090025;
+    public static final int notification_template_icon_group=0x7f090026;
+    public static final int notification_template_lines_media=0x7f090027;
+    public static final int notification_template_media=0x7f090028;
+    public static final int notification_template_media_custom=0x7f090029;
+    public static final int notification_template_part_chronometer=0x7f09002a;
+    public static final int notification_template_part_time=0x7f09002b;
+    public static final int select_dialog_item_material=0x7f09002c;
+    public static final int select_dialog_multichoice_material=0x7f09002d;
+    public static final int select_dialog_singlechoice_material=0x7f09002e;
+    public static final int support_simple_spinner_dropdown_item=0x7f09002f;
+    public static final int tooltip=0x7f090030;
   }
   public static final class mipmap {
-    public static final int ic_launcher=0x7f0a0000;
-    public static final int ic_launcher_round=0x7f0a0001;
-    public static final int normal_pic=0x7f0a0002;
-    public static final int passed_pic=0x7f0a0003;
-    public static final int target_pic=0x7f0a0004;
+    public static final int fun1=0x7f0a0000;
+    public static final int ic_launcher=0x7f0a0001;
+    public static final int ic_launcher_round=0x7f0a0002;
+    public static final int normal_pic=0x7f0a0003;
+    public static final int passed_pic=0x7f0a0004;
+    public static final int target_pic=0x7f0a0005;
   }
   public static final class string {
     public static final int abc_action_bar_home_description=0x7f0b0000;
@@ -10753,18 +10749,18 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #StepView_count com.zh.customerview:count}</code></td><td>步骤点个数</td></tr>
-     * <tr><td><code>{@link #StepView_is_view_clickable com.zh.customerview:is_view_clickable}</code></td><td>此 view 是否可点击</td></tr>
-     * <tr><td><code>{@link #StepView_line_length com.zh.customerview:line_length}</code></td><td>线条长度是否可变,默认是</td></tr>
+     * <tr><td><code>{@link #StepView_count com.zh.customerview:count}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StepView_is_view_clickable com.zh.customerview:is_view_clickable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StepView_line_length com.zh.customerview:line_length}</code></td><td></td></tr>
      * <tr><td><code>{@link #StepView_line_stroke_width com.zh.customerview:line_stroke_width}</code></td><td></td></tr>
-     * <tr><td><code>{@link #StepView_line_to_top_margin com.zh.customerview:line_to_top_margin}</code></td><td>默认文字在线条下面，线条距顶部距离、文字距底部距离</td></tr>
-     * <tr><td><code>{@link #StepView_margin com.zh.customerview:margin}</code></td><td>边距</td></tr>
-     * <tr><td><code>{@link #StepView_max_dot_count com.zh.customerview:max_dot_count}</code></td><td>根据最大步骤点数量，计算出线条长度不变时线条长度，线条长度可变时，该数据无效</td></tr>
-     * <tr><td><code>{@link #StepView_normal_line_color com.zh.customerview:normal_line_color}</code></td><td>链接步骤点之间的线条颜色和线宽</td></tr>
+     * <tr><td><code>{@link #StepView_line_to_top_margin com.zh.customerview:line_to_top_margin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StepView_margin com.zh.customerview:margin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StepView_max_dot_count com.zh.customerview:max_dot_count}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StepView_normal_line_color com.zh.customerview:normal_line_color}</code></td><td></td></tr>
      * <tr><td><code>{@link #StepView_passed_line_color com.zh.customerview:passed_line_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #StepView_step com.zh.customerview:step}</code></td><td>设置步骤点在哪儿</td></tr>
-     * <tr><td><code>{@link #StepView_text_color com.zh.customerview:text_color}</code></td><td>文字说明信息</td></tr>
-     * <tr><td><code>{@link #StepView_text_location com.zh.customerview:text_location}</code></td><td>文字是否在线条下面，默认是</td></tr>
+     * <tr><td><code>{@link #StepView_step com.zh.customerview:step}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StepView_text_color com.zh.customerview:text_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StepView_text_location com.zh.customerview:text_location}</code></td><td></td></tr>
      * <tr><td><code>{@link #StepView_text_size com.zh.customerview:text_size}</code></td><td></td></tr>
      * <tr><td><code>{@link #StepView_text_to_bottom_margin com.zh.customerview:text_to_bottom_margin}</code></td><td></td></tr>
      * </table>
@@ -10790,9 +10786,8 @@ public final class R {
       0x7f02011d, 0x7f02011e
     };
     /**
-     * <p>
-     * @attr description
-     * 步骤点个数
+     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#count}
+     * attribute's value can be found in the {@link #StepView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -10800,9 +10795,8 @@ public final class R {
      */
     public static final int StepView_count=0;
     /**
-     * <p>
-     * @attr description
-     * 此 view 是否可点击
+     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#is_view_clickable}
+     * attribute's value can be found in the {@link #StepView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -10811,9 +10805,8 @@ public final class R {
      */
     public static final int StepView_is_view_clickable=1;
     /**
-     * <p>
-     * @attr description
-     * 线条长度是否可变,默认是
+     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#line_length}
+     * attribute's value can be found in the {@link #StepView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -10842,9 +10835,8 @@ public final class R {
      */
     public static final int StepView_line_stroke_width=3;
     /**
-     * <p>
-     * @attr description
-     * 默认文字在线条下面，线条距顶部距离、文字距底部距离
+     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#line_to_top_margin}
+     * attribute's value can be found in the {@link #StepView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -10856,9 +10848,8 @@ public final class R {
      */
     public static final int StepView_line_to_top_margin=4;
     /**
-     * <p>
-     * @attr description
-     * 边距
+     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#margin}
+     * attribute's value can be found in the {@link #StepView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -10870,9 +10861,8 @@ public final class R {
      */
     public static final int StepView_margin=5;
     /**
-     * <p>
-     * @attr description
-     * 根据最大步骤点数量，计算出线条长度不变时线条长度，线条长度可变时，该数据无效
+     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#max_dot_count}
+     * attribute's value can be found in the {@link #StepView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -10880,9 +10870,8 @@ public final class R {
      */
     public static final int StepView_max_dot_count=6;
     /**
-     * <p>
-     * @attr description
-     * 链接步骤点之间的线条颜色和线宽
+     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#normal_line_color}
+     * attribute's value can be found in the {@link #StepView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -10903,9 +10892,8 @@ public final class R {
      */
     public static final int StepView_passed_line_color=8;
     /**
-     * <p>
-     * @attr description
-     * 设置步骤点在哪儿
+     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#step}
+     * attribute's value can be found in the {@link #StepView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -10924,9 +10912,8 @@ public final class R {
      */
     public static final int StepView_step=9;
     /**
-     * <p>
-     * @attr description
-     * 文字说明信息
+     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#text_color}
+     * attribute's value can be found in the {@link #StepView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -10936,9 +10923,8 @@ public final class R {
      */
     public static final int StepView_text_color=10;
     /**
-     * <p>
-     * @attr description
-     * 文字是否在线条下面，默认是
+     * <p>This symbol is the offset where the {@link com.zh.customerview.R.attr#text_location}
+     * attribute's value can be found in the {@link #StepView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>

@@ -452,6 +452,10 @@
         "source": "C:\\Users\\android\\.gradle\\wrapper\\dists\\gradle-5.4.1-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\d88b6bb0419a226344ac4b441b5511f2\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\android_workspace\\CustomerView\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_second.xml.flat",
+        "source": "D:\\android_workspace\\CustomerView\\app\\src\\main\\res\\layout\\activity_second.xml"
+    },
+    {
         "merged": "D:\\android_workspace\\CustomerView\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_text_material.xml.flat",
         "source": "C:\\Users\\android\\.gradle\\wrapper\\dists\\gradle-5.4.1-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\d88b6bb0419a226344ac4b441b5511f2\\res\\color-v23\\abc_btn_colored_text_material.xml"
     },
@@ -700,12 +704,12 @@
         "source": "D:\\android_workspace\\CustomerView\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "D:\\android_workspace\\CustomerView\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow.xml.flat",
-        "source": "C:\\Users\\android\\.gradle\\wrapper\\dists\\gradle-5.4.1-all\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.0.aar\\cac3e90971e6099836c3bfdff8096c32\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
         "merged": "D:\\android_workspace\\CustomerView\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_shrink_fade_out_from_bottom.xml.flat",
         "source": "C:\\Users\\android\\.gradle\\wrapper\\dists\\gradle-5.4.1-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\d88b6bb0419a226344ac4b441b5511f2\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\android_workspace\\CustomerView\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow.xml.flat",
+        "source": "C:\\Users\\android\\.gradle\\wrapper\\dists\\gradle-5.4.1-all\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.0.aar\\cac3e90971e6099836c3bfdff8096c32\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "D:\\android_workspace\\CustomerView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -766,6 +770,10 @@
     {
         "merged": "D:\\android_workspace\\CustomerView\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
         "source": "C:\\Users\\android\\.gradle\\wrapper\\dists\\gradle-5.4.1-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\d88b6bb0419a226344ac4b441b5511f2\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\android_workspace\\CustomerView\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_fun1.png.flat",
+        "source": "D:\\android_workspace\\CustomerView\\app\\src\\main\\res\\mipmap-xxhdpi\\fun1.png"
     },
     {
         "merged": "D:\\android_workspace\\CustomerView\\app\\build\\intermediates\\res\\merged\\debug\\color-v11_abc_background_cache_hint_selector_material_light.xml.flat",

@@ -676,6 +676,8 @@ id bottom
 id buttonPanel
 id cancel_action
 id chains
+id changeMode
+id change_mode
 id checkbox
 id chronometer
 id collapseActionView
@@ -695,6 +697,7 @@ id expand_activities_button
 id expanded_menu
 id five
 id fixed_length
+id fl
 id forever
 id four
 id gone
@@ -776,6 +779,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id toSecond
 id top
 id topPanel
 id two
@@ -819,6 +823,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout activity_main
+layout activity_second
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -839,6 +844,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout tooltip
+mipmap fun1
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap normal_pic

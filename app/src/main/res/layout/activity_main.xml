@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+   >
 
     <com.zh.customerview.view.StepView
         android:id="@+id/step1"
@@ -21,5 +20,37 @@
         app:step="one"
         app:text_size="12sp"
         app:text_to_bottom_margin="8dp" />
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="?android:attr/colorBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hello world"
+            android:textSize="40sp"
+            android:textColor="?android:attr/textColorPrimary" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/changeMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="切换使用深色还是浅色的模式"
+        android:textSize="40sp"
+        android:textColor="?android:attr/textColorPrimary" />
+    <TextView
+        android:id="@+id/toSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="跳转第二个页面"
+        android:textSize="40sp"
+        android:textColor="?android:attr/textColorPrimary" />
 
 </LinearLayout>

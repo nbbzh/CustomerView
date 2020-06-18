@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="?android:attr/colorBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hello world"
+            android:textSize="40sp"
+            android:textColor="?android:attr/textColorPrimary" />
+
+    </FrameLayout>
+    <TextView
+        android:id="@+id/change_mode"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="切换状态"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="#FF0000" />
+
+</LinearLayout>

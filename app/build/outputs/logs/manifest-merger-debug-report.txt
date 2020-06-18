@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-24:12
 MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\android\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\d88b6bb0419a226344ac4b441b5511f2\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\android\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\855343ff08a1fef4efa26e5aa7ea2be7\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\android\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\a1fdcd9610cbaaa7bfeafc652e51b6d4\AndroidManifest.xml:17:1-28:12
@@ -14,25 +14,25 @@ MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\android\.grad
 MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\android\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\54fd3c6b00ade9a695dbaff70c549955\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\android\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\fa1a5a39ea794ec0d80b4dd146f7429d\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.0.0] C:\Users\android\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\7e6a1cd05fea753bcc37c496d7c5d9c6\AndroidManifest.xml:17:1-31:12
-INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml
 		INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml
-		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-24:12
 		INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml
-		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-24:12
 		INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:5:5-22:19
 MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\android\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\d88b6bb0419a226344ac4b441b5511f2\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\android\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\d88b6bb0419a226344ac4b441b5511f2\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\android\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\855343ff08a1fef4efa26e5aa7ea2be7\AndroidManifest.xml:9:5-20
@@ -66,19 +66,25 @@ MERGED from [com.android.support:support-compat:26.0.0] C:\Users\android\.gradle
 	android:theme
 		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.zh.customerview.MainActivity
-ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:12:9-19:20
+	android:configChanges
+		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:13:13-43
 	android:name
 		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:12:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.zh.customerview.SecondActivity
+ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:20:9-21:14
+	android:name
+		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:20:19-68
 uses-sdk
 INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml
