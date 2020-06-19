@@ -40,4 +40,11 @@
         <!--此 view 是否可点击-->
         <attr name="is_view_clickable" format="boolean" />
     </declare-styleable>
+
+
+    <declare-styleable name="FlowLayout">
+        <attr name="v_margin" format="dimension"/>
+        <attr name="h_margin" format="dimension"/>
+        <attr name="isDivideEqually" format="boolean"/>
+    </declare-styleable>
 </resources>

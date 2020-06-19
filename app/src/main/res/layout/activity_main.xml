@@ -3,9 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-   >
-
+    android:orientation="vertical">
+    <com.zh.customerview.view.ConcentricCircle
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
     <com.zh.customerview.view.StepView
         android:id="@+id/step1"
         android:layout_width="match_parent"
@@ -20,6 +21,7 @@
         app:step="one"
         app:text_size="12sp"
         app:text_to_bottom_margin="8dp" />
+
     <FrameLayout
         android:id="@+id/fl"
         android:layout_width="match_parent"
@@ -31,8 +33,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Hello world"
-            android:textSize="40sp"
-            android:textColor="?android:attr/textColorPrimary" />
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="40sp" />
 
     </FrameLayout>
 
@@ -42,15 +44,17 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="切换使用深色还是浅色的模式"
-        android:textSize="40sp"
-        android:textColor="?android:attr/textColorPrimary" />
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="40sp" />
+
     <TextView
         android:id="@+id/toSecond"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="跳转第二个页面"
-        android:textSize="40sp"
-        android:textColor="?android:attr/textColorPrimary" />
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="40sp" />
+
 
 </LinearLayout>

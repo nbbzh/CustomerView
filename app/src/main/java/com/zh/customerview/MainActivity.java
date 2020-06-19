@@ -5,6 +5,7 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.AppCompatDelegate;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.FrameLayout;
 
@@ -108,6 +109,7 @@ public class MainActivity extends AppCompatActivity {
         }else if (currentNightMode==Configuration.UI_MODE_NIGHT_YES){
             //夜间模式启用，使用深色主题
         }
-
     }
+
+
 }

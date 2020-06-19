@@ -28,5 +28,39 @@
         android:gravity="center"
         android:textSize="14sp"
         android:textColor="#FF0000" />
+    <com.zh.customerview.view.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FF00"
+        >
+        <TextView
+            style="@style/TvMainTag"
+            android:text="bingo" />
 
+        <TextView
+            style="@style/TvMainTag"
+            android:text="googol" />
+
+        <TextView
+            style="@style/TvMainTag"
+            android:text="apple" />
+
+        <TextView
+            style="@style/TvMainTag"
+            android:text="bingoogolabingoogolapplebingoogolapplebingoogolapplepplappleppllappleppllapplepplle" />
+
+        <TextView
+            style="@style/TvMainTag"
+            android:layout_height="40dp"
+            android:text="HelloWorld" />
+
+        <TextView
+            style="@style/TvMainTag"
+            android:text="Android" />
+
+        <TextView
+            style="@style/TvMainTag"
+            android:text="HelloWorld" />
+
+    </com.zh.customerview.view.FlowLayout>
 </LinearLayout>
