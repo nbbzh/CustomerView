@@ -19,6 +19,7 @@
         </activity>
         <activity android:name="com.zh.customerview.SecondActivity"
            />
+        <activity android:name="com.zh.customerview.ThreeActivity"/>
     </application>
 
 </manifest>

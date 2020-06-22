@@ -47,4 +47,12 @@
         <attr name="h_margin" format="dimension"/>
         <attr name="isDivideEqually" format="boolean"/>
     </declare-styleable>
+    <declare-styleable name="CirclePercentView">
+        <attr name="circleBg" format="color"/>
+        <attr name="arcColor" format="color"/>
+        <attr name="arcWidth" format="dimension"/>
+        <attr name="percentTextColor" format="color"/>
+        <attr name="percentTextSize" format="dimension"/>
+        <attr name="radius" format="dimension"/>
+    </declare-styleable>
 </resources>

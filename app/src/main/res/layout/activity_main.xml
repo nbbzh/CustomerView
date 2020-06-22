@@ -55,6 +55,14 @@
         android:text="跳转第二个页面"
         android:textColor="?android:attr/textColorPrimary"
         android:textSize="40sp" />
+    <TextView
+        android:id="@+id/toThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="跳转第三个页面"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="40sp" />
 
 
 </LinearLayout>

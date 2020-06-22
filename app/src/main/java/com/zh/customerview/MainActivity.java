@@ -43,6 +43,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this,SecondActivity.class));
             }
         });
+        findViewById(R.id.toThree).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,ThreeActivity.class));
+
+            }
+        });
 
     }
 
