@@ -1,31 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-<com.zh.customerview.view.CirclePercentView
-    android:id="@+id/circleView"
-    android:layout_width="match_parent"
-    app:radius="60dp"
-    app:circleBg="#F82888"
-    app:arcColor="#00E8F8"
-    app:arcWidth="10dp"
-    app:percentTextColor="#FFFFFF"
-    app:percentTextSize="14sp"
-    android:layout_height="wrap_content"/>
+
+    <com.zh.customerview.view.CirclePercentView
+        android:id="@+id/circleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:arcColor="#00E8F8"
+        app:arcWidth="10dp"
+        app:circleBg="#F82888"
+        app:percentTextColor="#FFFFFF"
+        app:percentTextSize="14sp"
+        app:radius="60dp" />
+
     <com.zh.customerview.view.LineChartView
         android:id="@+id/lineChartView"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent" />
+
     <TextView
+        android:id="@+id/setData"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:background="@color/colorAccent"
-        android:textSize="14sp"
-        android:text="设置折线图的数据"
-        android:id="@+id/setData"
-        android:textColor="#000000"
         android:gravity="center"
-        />
+        android:text="设置折线图的数据"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/click_point"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="点击的数据"
+        android:textColor="#000000"
+        android:textSize="14sp" />
 </LinearLayout>

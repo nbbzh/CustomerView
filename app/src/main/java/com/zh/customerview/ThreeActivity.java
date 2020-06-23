@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.TextView;
 
 import com.zh.customerview.view.CirclePercentView;
 import com.zh.customerview.view.LineChartView;
@@ -16,6 +17,7 @@ public class ThreeActivity extends AppCompatActivity {
 
     private Point[] mPoint;
     private LineChartView lineChartView;
+    private TextView clickPoint;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -34,14 +36,17 @@ public class ThreeActivity extends AppCompatActivity {
         findViewById(R.id.setData).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mPoint[0] = new Point(1, 70);
-                mPoint[1] = new Point(2, 60);
-                mPoint[2] = new Point(3, 50);
-                mPoint[3] = new Point(4, 40);
-                mPoint[4] = new Point(5, 30);
-                mPoint[5] = new Point(6, 20);
-                mPoint[6] = new Point(7, 10);
+                for (int i=0;i<7;i++) {
+                    mPoint[i] = new Point(i + 1, (int) (Math.random() * 70 + 1));
+                }
                 lineChartView.setPointArray(mPoint);
+            }
+        });
+        clickPoint = findViewById(R.id.click_point);
+        lineChartView.setOnPointClickListener(new LineChartView.OnPointClickListener() {
+            @Override
+            public void onPointClick(int index, Point point) {
+                clickPoint.setText("点击的位置："+point.x +":"+point.y);
             }
         });
     }

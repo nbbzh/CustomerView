@@ -225,6 +225,7 @@ attr layout_goneMarginTop
 attr layout_insetEdge
 attr layout_keyline
 attr layout_optimizationLevel
+attr lineColor
 attr lineHeight
 attr line_length
 attr line_stroke_width
@@ -263,6 +264,7 @@ attr panelMenuListWidth
 attr passed_line_color
 attr percentTextColor
 attr percentTextSize
+attr pointColor
 attr popupMenuStyle
 attr popupTheme
 attr popupWindowStyle
@@ -315,6 +317,7 @@ attr textAppearancePopupMenuHeader
 attr textAppearanceSearchResultSubtitle
 attr textAppearanceSearchResultTitle
 attr textAppearanceSmallPopupMenu
+attr textColor
 attr textColorAlertDialogListItem
 attr textColorSearchUrl
 attr text_color
@@ -703,6 +706,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btn
 id buttonPanel
 id center
 id center_horizontal
@@ -710,9 +714,11 @@ id center_vertical
 id chains
 id changeMode
 id change_mode
+id chartView
 id checkbox
 id chronometer
 id circleView
+id click_point
 id clip_horizontal
 id clip_vertical
 id collapseActionView
@@ -821,10 +827,12 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id toFour
 id toSecond
 id toThree
 id top
 id topPanel
+id tv
 id two
 id uniform
 id up
@@ -866,6 +874,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_four
 layout activity_main
 layout activity_second
 layout activity_three
@@ -1306,6 +1315,7 @@ styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchSt
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
+styleable LineChartView lineColor pointColor textColor
 styleable LinearConstraintLayout android_orientation
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight

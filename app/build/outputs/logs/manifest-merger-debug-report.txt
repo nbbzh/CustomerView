@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\android\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\894fb3d889e0624083d14000f66b3ab9\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\android\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\855343ff08a1fef4efa26e5aa7ea2be7\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\android\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\ea4db8f9d9e2b33437e4f76c42e0c121\AndroidManifest.xml:17:1-22:12
@@ -31,25 +31,25 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\android\.gradle\wra
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\android\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\048d9c1f8b6dd0ddb902e03cfcdb75ce\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\android\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e59418bbb7dc5a98717fe70c702b10bb\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\android\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\b97e3657c05a3945460d7b95952944b6\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml
 		INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml
-		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml
-		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:5:5-23:19
+ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:5:5-24:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\android\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\855343ff08a1fef4efa26e5aa7ea2be7\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\android\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\855343ff08a1fef4efa26e5aa7ea2be7\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\android\.gradle\wrapper\dists\gradle-5.4.1-all\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a5d43d6db1effd4f0afc212f4802d3ce\AndroidManifest.xml:22:5-94
@@ -94,6 +94,10 @@ activity#com.zh.customerview.ThreeActivity
 ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:22:9-69
 	android:name
 		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:22:19-67
+activity#com.zh.customerview.FourActivity
+ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:23:9-68
+	android:name
+		ADDED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml:23:19-66
 uses-sdk
 INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\android_workspace\CustomerView\app\src\main\AndroidManifest.xml

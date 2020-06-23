@@ -64,5 +64,12 @@
         android:textColor="?android:attr/textColorPrimary"
         android:textSize="40sp" />
 
-
+    <TextView
+        android:id="@+id/toFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="跳转第四个页面"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="40sp" />
 </LinearLayout>

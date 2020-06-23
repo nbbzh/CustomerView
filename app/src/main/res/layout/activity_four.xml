@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lcv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <com.zh.customerview.view.others.LineChartView
+        android:id="@+id/chartView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        lcv:lineColor="#8e29fa"
+        lcv:pointColor="#ff5100"
+        lcv:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="set data"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="OnPointClick"
+        android:textColor="#000000" />
+</LinearLayout>
